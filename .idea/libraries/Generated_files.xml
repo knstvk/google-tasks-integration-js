@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/script/service.js" />
+        <item url="file://$PROJECT_DIR$/script/model.js" />
+        <item url="file://$PROJECT_DIR$/script/task_view.js" />
+        <item url="file://$PROJECT_DIR$/script/main.js" />
+        <item url="file://$PROJECT_DIR$/script/tasklist_view.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/script/google.js" />
+      <root url="file://$PROJECT_DIR$/script/google.js" />
+      <root url="file://$PROJECT_DIR$/script/service.js" />
+      <root url="file://$PROJECT_DIR$/script/model.js" />
+      <root url="file://$PROJECT_DIR$/script/task_view.js" />
+      <root url="file://$PROJECT_DIR$/script/main.js" />
+      <root url="file://$PROJECT_DIR$/script/tasklist_view.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

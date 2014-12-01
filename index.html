@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/underscore/underscore.js"></script>
+
+    <script src="script/model.js"></script>
+    <script src="script/service.js"></script>
+    <script src="script/tasklist_view.js"></script>
+    <script src="script/task_view.js"></script>
+    <script src="script/main.js"></script>
+
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+</head>
+<body>
+<button id="authorize-button" style="visibility: hidden">Authorize</button>
+<select id="list-select"></select>
+<div id="results"></div>
+
+<!-- Templates -->
+
+<script type="text/template" id="task-template">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <%= title %>
+        </div>
+    </div>
+</script>
+
+</body>
+</html>
